@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    // Editor
+    "EditorConfig.EditorConfig",
+    // Language - Markdown
+    "DavidAnson.vscode-markdownlint",
+    "lpubsppop01.vscode-auto-timestamp",  // frontmatterの時刻の自動更新
+    "esbenp.prettier-vscode"
+  ]
+}
