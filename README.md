@@ -1,7 +1,7 @@
 ---
 title: Automatic1111/stable-diffusion-webuiの利用スクリプト
 date: 2023-09-19
-lastmod: 2023-09-19
+lastmod: 2023-12-29
 ---
 
 ## 概要
@@ -12,10 +12,9 @@ lastmod: 2023-09-19
 
 このフォルダに automatic1111 を git clone して環境構築することを想定してスクリプトを記載します。
 
-- til-20230919
-  - .gitignore
-  - index.md
-  - stable-diffusion-webui/: クローンしたリポジトリのフォルダ。ただし、.gitignore で設定されているため何もコミットされない。
+- .gitignore
+- README.md
+- stable-diffusion-webui/: クローンしたリポジトリのフォルダ。ただし、.gitignore で設定されているため何もコミットされない。
 
 ## 実行方法
 
@@ -33,7 +32,7 @@ cd ./stable-diffusion-webui
 ```sh
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd ./stable-diffusion-webui
-git switch -c v1.6.0 tags/v1.6.0
+git switch -c v1.7.0 tags/v1.7.0
 ./webui-user.bat
 ```
 
