@@ -1,0 +1,20 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "cmds",
+    "cuda",
+    "dotenv",
+    "dprint",
+    "iimuz",
+    "lastmod",
+    "webui"
+  ],
+  "dictionaries": [],
+  "ignorePaths": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/package-lock.json",
+    "**/stable-diffusion-webui/"
+  ]
+}
