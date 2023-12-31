@@ -2,9 +2,19 @@
   "recommendations": [
     // Editor
     "EditorConfig.EditorConfig",
-    // Language - Markdown
+    // Linter, Formatter
+    "dprint.dprint", // json, markdown, toml
+    "streetsidesoftware.code-spell-checker", // spell checker
+    // Markdown
     "DavidAnson.vscode-markdownlint",
-    "lpubsppop01.vscode-auto-timestamp",  // frontmatterの時刻の自動更新
-    "esbenp.prettier-vscode"
+    "lpubsppop01.vscode-auto-timestamp", // frontmatterの時刻の自動更新
+    // Python
+    "charliermarsh.ruff",
+    "ms-python.mypy-type-checker",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "njpwerner.autodocstring",
+    // TOML
+    "be5invis.toml" // syntax highlight
   ]
 }
