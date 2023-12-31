@@ -1,7 +1,7 @@
 ---
 title: Automatic1111/stable-diffusion-webuiの利用スクリプト
 date: 2023-09-19
-lastmod: 2023-12-29
+lastmod: 2023-12-31
 ---
 
 ## 概要
@@ -18,23 +18,11 @@ lastmod: 2023-12-29
 
 ## 実行方法
 
-WebUI を起動するためには、環境構築が完了して以降は下記のように実行するとサーバーが立ち上がる。
+taskを利用して実行コマンドを記載します。代表的なコマンド以外は、`task -l`で確認してください。
 
-```sh
-cd ./stable-diffusion-webui
-./webui-user.bat
-```
-
-## 環境構築方法
-
-(Windows 環境の場合)
-
-```sh
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
-cd ./stable-diffusion-webui
-git switch -c v1.7.0 tags/v1.7.0
-./webui-user.bat
-```
+- 環境構築: `task init`
+- サーバーの起動: `task webui`
+  - 初回起動時にサーバー環境の構築を行います。
 
 ## Tips
 
